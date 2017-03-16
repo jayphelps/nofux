@@ -26,7 +26,9 @@ We publish a UMD build inside our npm package. You can use it via the [unpkg](ht
 
 The central idea of nofux is that all of your application's state is contained in a single, global atom. This state tree is held on the `nofux` namespace, which is actually an alias to the global object in your JavaScript environment, e.g. `window`.
 
-To update the state, simply assign a property on `nofux`! That's it! ...Unless you want your app to update too, in which you need to call `this.forceUpdate()` on your component.
+To update the state, simply assign a property on `nofux`. State updates will happen after an unpredictable fraction of a second after assigning the value.
+
+That's it! ...Unless you want your app to update too, in which you need to call `this.forceUpdate()` on your component.
 
 [JSBin Demo](http://jsbin.com/kokivar/edit?js,output)
 
