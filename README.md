@@ -1,7 +1,7 @@
 # nofux
 [![Join the chat at https://gitter.im/jayphelps/nofux](https://badges.gitter.im/jayphelps/nofux.svg)](https://gitter.im/jayphelps/nofux?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![build status](https://img.shields.io/travis/reactjs/redux/master.svg)](https://travis-ci.org/jayphelps/nofux)
-[![npm version](https://img.shields.io/npm/v/nofux)](https://www.npmjs.com/package/nofux)
+[![npm version](https://img.shields.io/npm/v/nofux.svg)](https://www.npmjs.com/package/nofux)
 
 Unpredictable state container for JavaScript apps. Rethinking best practices, when you're all out of fucks to give.
 
