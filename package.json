@@ -1,0 +1,33 @@
+{
+  "name": "nofux",
+  "version": "1000000000000000.0.1",
+  "description": "Unpredictable state container for JavaScript apps",
+  "author": "Jay Phelps <hello@jayphelps.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayphelps/nofux.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jayphelps/nofux/issues"
+  },
+  "homepage": "https://github.com/jayphelps/nofux",
+  "main": "dist/cjs/index.js",
+  "jsnext:main": "dist/esm/index.js",
+  "scripts": {
+    "build": "npm run build:es2015 && npm run build:esm && npm run build:cjs && npm run build:umd && npm run build:umd:min",
+    "build:es2015": "tsc --module es2015 --target es2015 --outDir dist/es2015",
+    "build:esm": "tsc --module es2015 --target es5 --outDir dist/esm",
+    "build:cjs": "tsc --module commonjs --target es5 --outDir dist/cjs",
+    "build:umd": "rollup dist/esm/index.js --format umd --name Nofux --sourceMap --output dist/umd/nofux.js",
+    "build:umd:min": "cd dist/umd && uglifyjs --compress --mangle --source-map --screw-ie8 --comments --o nofux.min.js -- nofux.js && gzip nofux.min.js -c > nofux.min.js.gz",
+    "test": "echo \"lol yeah right\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "@types/node": "^6.0.52",
+    "rollup": "^0.41.4",
+    "typescript": "^2.2.1",
+    "uglify-js": "^2.7.5"
+  }
+}
