@@ -3,9 +3,7 @@
 [![build status](https://img.shields.io/travis/reactjs/redux/master.svg)](https://travis-ci.org/jayphelps/nofux)
 [![npm version](https://img.shields.io/npm/v/nofux.svg)](https://www.npmjs.com/package/nofux)
 
-Unpredictable state container for JavaScript apps. Rethinking best practices, when you're all out of fucks to give.
-
-<a href="https://app.codesponsor.io/link/zs7vWiDv2F99bX6Ay7PJa5WE/jayphelps/nofux" rel="nofollow"><img src="https://app.codesponsor.io/embed/zs7vWiDv2F99bX6Ay7PJa5WE/jayphelps/nofux.svg" style="width: 888px; height: 68px;" alt="Sponsor" /></a>
+Unpredictable state container for JavaScript apps. Rethinking best practices, when you're all out of fux to give.
 
 ## Install
 
