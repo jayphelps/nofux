@@ -6,7 +6,7 @@
 Unpredictable state container for JavaScript apps. Rethinking best practices, when you're all out of fux to give.
 
 > "Any identifier can be globally unique, if you concatenate together enough words with dashes and underscores."
-> - Mark Erikson
+> - Mark Erikson, lead maintainer of Redux
 > 
 > https://twitter.com/acemarke/status/1072342186396667905?s=21
 
